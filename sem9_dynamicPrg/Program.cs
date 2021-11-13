@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using sem9_dynamicPrg.task_1;
 using sem9_dynamicPrg.task_2;
 using sem9_dynamicPrg.task_3;
+using sem9_dynamicPrg.task_7;
 
 namespace sem9_dynamicPrg
 {
@@ -32,11 +34,29 @@ namespace sem9_dynamicPrg
             
             AorB.solve(r,c,S);
         }
+
+        public static void call_task7()
+        {
+            /*string T = "helloworld";
+            List<string> Dict = new List<string>()
+                {"hello", "world", "earth"};*/
+            
+            /*string T = "breaksandown";
+            List<string> Dict = new List<string>()
+                {"breaks", "sand", "down"};*/
+            
+            string T = "solvemesolve";
+            List<string> Dict = new List<string>()
+                {"solve", "me"};
+
+            Console.WriteLine(split_dictionary.solve(T, Dict));
+        }
         static void Main(string[] args)
         {
            //call_task1();
            //call_task2();
-           call_task3();
+           //call_task3();
+           call_task7();
            
            Console.WriteLine();
         }
