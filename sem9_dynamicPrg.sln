@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sem9_dynamicPrg", "sem9_dynamicPrg\sem9_dynamicPrg.csproj", "{9209723B-FF72-4C91-87E5-4AC91BC80277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9209723B-FF72-4C91-87E5-4AC91BC80277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9209723B-FF72-4C91-87E5-4AC91BC80277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9209723B-FF72-4C91-87E5-4AC91BC80277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9209723B-FF72-4C91-87E5-4AC91BC80277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
